@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("bg.jpg");
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+    height: 644px;
+}
+
+#space1 {
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    opacity: 65%;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    height: 100px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;        /* margin auto helped me to align the entire content of nav in the centre  */
+}
+
+nav img{
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.text1{
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    z-index: 10;
+    gap: 30px;
+    
+}
+
+#enjoy {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+#join {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+#ready{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sign{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.sep {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.secImg img {
+    width: 486px;
+    position: relative;
+    z-index: 10;
+}
+
+/* .secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 486px;
+} */
+
+section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.sechead{
+    font-size: 48px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.secp{
+    font-size: 20px;
+    text-align: center;
+}
